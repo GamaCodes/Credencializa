@@ -1,3 +1,10 @@
+@import './css/index.css';
+@import './css/Footer.css';
+@import './css/Navbar.css';
+@import './css/Terms.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +17,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  font-size: 15px;
+  --white: #fff;
+  --black: #333;
+  --black10: #444;
+  --primary: #007D7D;
+  --secondary: #02aeae;
+  --green40: #058c8c;
+  --green50: #006060;
+  --green60: #004343;
+  --gray10:#444343;
 }

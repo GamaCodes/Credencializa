@@ -1,0 +1,27 @@
+.terms-contain {
+  padding: 1rem 2rem;
+}
+
+.terms-name {
+  font-weight: bold;
+}
+
+.terms-url {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.terms-contain p {
+  color: var(--gray10);
+}
+
+.terms-contain li {
+  color: var(--gray10);
+  padding-bottom: 1rem;
+}
+
+.terms-contain ol {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
