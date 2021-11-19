@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ImYoutube, ImLinkedin2, ImFacebook, ImTwitter } from "react-icons/im";
-import { HiMenu, HiX } from "react-icons/hi";
+import { HiMenu, HiX, HiPhone, HiMail, HiLocationMarker } from "react-icons/hi";
 import { IconContext } from "react-icons";
 
 export default function Navbar() {
@@ -12,6 +12,14 @@ export default function Navbar() {
   const closeMobileMenu = () => setClick(false);
   return (
     <>
+      <div className="logo-contain">
+        <img
+          src="./logovacuna.svg"
+          alt="Logo vacunamex"
+          onClick={() => navigate("/")}
+          className="logo-vacuna"
+        />
+      </div>
       <div className="icon-contain-mobile">
         <IconContext.Provider
           value={{ className: "icon-social", size: "1.3rem" }}
@@ -46,11 +54,11 @@ export default function Navbar() {
             <li
               className="option"
               onClick={() => {
-                navigate("/producto");
+                navigate("/credencial");
                 closeMobileMenu();
               }}
             >
-              Nuestro Producto
+              Tu Credencial
             </li>
             <li
               className="option"
