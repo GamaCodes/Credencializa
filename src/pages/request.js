@@ -1,9 +1,13 @@
 import React from "react";
+import Banner from "../components/Banner";
 
 export default function request() {
   return (
-    <div>
-      <p>Solicitud</p>
-    </div>
+    <>
+      <Banner home={false} />
+      <div>
+        <p>Solicitud</p>
+      </div>
+    </>
   );
 }

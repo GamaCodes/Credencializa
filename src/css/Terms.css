@@ -34,3 +34,17 @@
 li {
   text-align: justify;
 }
+
+.right-terms-img {
+  display: flex;
+  justify-content: center;
+}
+
+.post-vacuna {
+  width: 20vw;
+}
+
+.logotexto-vacuna {
+  width: 18vw;
+  margin-bottom: 3rem;
+}

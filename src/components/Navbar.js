@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ImYoutube, ImLinkedin2, ImFacebook, ImTwitter } from "react-icons/im";
-import { HiMenu, HiX, HiPhone, HiMail, HiLocationMarker } from "react-icons/hi";
+import { HiMenu, HiX } from "react-icons/hi";
 import { IconContext } from "react-icons";
 
 export default function Navbar() {

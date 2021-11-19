@@ -1,77 +1,100 @@
 import React from "react";
+import Banner from "../components/Banner";
 
 export default function privacy() {
   return (
-    <div className="page-body">
-      <div className="left-section">
-        <h1 className="title">
-          Aviso <br /> <span>de Privacidad</span>
-        </h1>
-        <div className="terms-contain">
-          <section>
-            <p>
-              Términos y condiciones (en lo sucesivo los “Términos y Condiciones
-              Generales”) que son aplicables a la publicidad e impresión en
-              formatos “pvc” de los documentos que sean requeridos por los
-              clientes en dicho formato (en lo sucesivo “tarjetas pvc”)
-              ofertados al público en general bajo la marca{" "}
-              <span className="terms-name">“CREDENCIALIZA TU VACUNA. MX”</span>{" "}
-              a través de su página de internet{" "}
-              <span className="terms-url">www.credencializatuvacuna.mx</span>{" "}
-              (en lo sucesivo el “Sitio”) y demás redes sociales de momento en
-              momento.
-            </p>
-          </section>
-          <section>
-            <h3 className="subtitle">Definiciones:</h3>
-            <p>
-              Firma electrónica: el conjunto de datos y caracteres que permite
-              la identificación del firmante, que ha sido creada por medios
-              electrónicos bajo su exclusivo control, de manera que está
-              vinculada únicamente al mismo y a los datos a los que se refiere,
-              lo que permite que sea detectadle cualquier modificación ulterior
-              de éstos, la cual produce los mismos efectos jurídicos que la
-              firma autógrafa.
-            </p>
-            <p>
-              Documentos gubernamentales: son documentos memoriales, documentos
-              que reflejan el ejercicio de las facultades que la Soberanía
-              Nacional ha conferido a instituciones Públicos y por ello tienen
-              (deben tener) una inevitable vocación pública: la sociedad debe
-              acceder a ellos.
-            </p>
-            <p>
-              Certificado: que es una tarjeta de identidad y contiene el nombre,
-              RFC y CURP. También se llama llave pública, ya que cualquier
-              persona puede tener acceso a ella.
-            </p>
-            <p>
-              Autenticidad: a la certeza que en un documento digital electrónico
-              determinado fue emitido por el titular y que, por lo tanto, el
-              contenido y las consecuencias jurídicas que del mismo deriven, le
-              son atribuibles a este en tanto se consideración expresión de su
-              voluntad.
-            </p>
-            <p>
-              Documento electrónico: al soporte escrito con caracteres
-              alfanuméricos, archivos de imagen, video, audio, o cualquier otro
-              formato tecnológico disponible que contenga información en
-              lenguaje natural o convencional, intercambiado por medios
-              electrónicos, con el que sea posible dar constancia de un hecho y
-              que se este signado con la firma electrónica avanzada y/o en el
-              que se encuentre plasmado el sello electrónico.
-            </p>
-            <p>
-              Llave privada: se encuentra protegida con su contraseña de acceso
-              y asegura que sólo tú puedes usar tu FIEL/FEA firma.
-            </p>
-          </section>
+    <>
+      <Banner home={false} />
+      <div className="page-body">
+        <div className="left-section">
+          <h1 className="title">
+            Aviso <br /> <span>de Privacidad</span>
+          </h1>
+          <div className="terms-contain">
+            <section>
+              <p>
+                En en base a la normativa fijada por la “Ley Federal de
+                protección de datos personales en posesión de particulares”
+                (LEY) Y en el "Reglamento de la Ley Federal de Protección de
+                Datos Personales en Posesión de Particulares" (REGLAMENTO), así
+                como en las especificaciones y parámetros previstos en los
+                lineamientos del aviso de privacidad publicados en el Diario
+                Oficial de la Federación y por el modelo del aviso de privacidad
+                corto para video vigilancia emitida por el Instituto Nacional de
+                Transparencia, Acceso a la Información y Protección de Datos
+                Personales (INAI). Alejandro Guerrero Bautista en lo en lo
+                sucesivo LA RESPONSABLE, con domicilio en la Calle Ostia 2782
+                Piso 4, en la colonia Providencia, en lacio de Guadalajara,
+                Jalisco, México, código postal 44630; pone a disposición del
+                público en general los términos y condiciones del aviso de
+                privacidad simplificado para la protección de datos personales
+                (Aviso de Privacidad).
+              </p>
+              <p>
+                El responsable de la recepción manejo y salvaguarda de la
+                información será Alejandro Guerrero Bautista, quien ejerce bajo
+                la marca comercial “Credencializa Tu Vacuna MX”, toda la
+                información será utilizada en base al tratamiento y finalidades
+                que se proveen a lo largo del presente Aviso de Privacidad.
+              </p>
+              <p>
+                Los datos personales solicitados y recabados tendrán como
+                finalidad: identificar al titular de la información, brindarle
+                información acerca de los productos y servicios que ofrecemos,
+                para la impresión o reimpresión del documento personales, para
+                realizar encuestas de control de calidad, integración del
+                expediente de prospectos y/o clientes y/o prestador de servicios
+                y/o proveedor, para dar cumplimiento a las obligaciones de
+                carácter fiscal o comercial, para fines de comunicación con el
+                titular, para la celebración de contratos o convenios ante el
+                titular y terceros con los que se tenga relación directa.
+              </p>
+              <p>
+                La responsable tiene ubicada su oficina en la Calle Ostia 2782
+                Piso 4, en la colonia Providencia, en lacio de Guadalajara,
+                Jalisco, México, código postal 44630; para la atención de dudas
+                o reclamaciones, así como para los efectos revocación y negativa
+                del consentimiento y para el seguimiento al procedimiento de
+                derechos ARCO a favor del titular de los datos personales.
+              </p>
+              <p>
+                Correo electrónico:{" "}
+                <span className="terms-name">
+                  info@credencializatuvacuna.mx{" "}
+                </span>{" "}
+              </p>
+              <p>
+                Teléfono: <span className="terms-name">3330612330</span>
+              </p>
+              <p>
+                Para mayor información sobre el uso de tus datos personales,
+                ponemos a tu disposición nuestro{" "}
+                <span className="terms-name">AVISO DE PRIVACIDAD INTEGRAL</span>{" "}
+                de forma digital al solicitarlo por correo electrónico y/o
+                físicamente, en las elecciones que han señalado en el párrafo
+                anterior, con el fin primordial de qué te enteres de su
+                contenido, otorgues y/o niegues tu consentimiento.
+              </p>
+            </section>
+          </div>
+        </div>
+        <div className="right-section">
+          <div className="right-terms-img">
+            <img
+              src="./logotexto.png"
+              alt="Logo vacunamex"
+              className="logotexto-vacuna"
+            />
+          </div>
+          <div className="right-terms-img">
+            <img
+              src="./post.png"
+              alt="Logo vacunamex"
+              className="post-vacuna"
+            />
+          </div>
         </div>
       </div>
-      <div className="right-section">
-        <input className="input-section" type="text"></input>
-        <button className="button-section">Search</button>
-      </div>
-    </div>
+    </>
   );
 }

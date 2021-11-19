@@ -1,0 +1,22 @@
+.locations {
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.locations p{
+  color: var(--green50);
+  font-weight: bold;
+}
+
+.locations span{
+  color: var(--black);
+  font-weight: normal;
+  padding-left: 1rem;
+}
+
+.locations section{
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
