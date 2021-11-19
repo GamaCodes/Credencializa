@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  background: #666;
+  background: rgba(255,255,255,0.8);
   justify-content: space-between;
   align-items: center;
   margin: 0 12rem;
@@ -22,7 +22,7 @@
 }
 
 .option:hover {
-  color: white;
+  color: var(--secondary);
 }
 
 .mobile-menu {
@@ -40,6 +40,17 @@
 
 .icon-contain-mobile {
   display: none;
+}
+
+.logo-vacuna {
+  height: 4rem;
+  width: auto;
+  padding: 2rem;
+}
+
+.logo-contain {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 648px) {

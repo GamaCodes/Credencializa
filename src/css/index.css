@@ -1,5 +1,5 @@
 .title {
-  color: var(--green60);
+  color: var(--green50);
   font-family: 'Prompt', sans-serif;
 }
 
@@ -11,6 +11,11 @@
   text-decoration:underline
 }
 
+.subtitle-product {
+  font-weight: bold;
+  color: var(--green50);
+}
+
 .page-body {
   display: flex;
   flex-direction: column;
@@ -19,10 +24,21 @@
 
 .left-section {
   padding: 1rem;
-  background-color: tomato;
+  background-color: white;
 }
 
+.left-section-variant {
+  padding: 1rem 0 1rem 1rem;
+  background-color: white;
+}
+
+
 .right-section {
+  padding: 1rem;
+  background-color: turquoise;
+}
+
+.right-section-variant {
   padding: 1rem;
   background-color: turquoise;
 }
@@ -44,6 +60,13 @@
   border: var(--green60);
 }
 
+.img-card {
+  width: 25vw;
+}
+
+p {
+  text-align: justify;
+}
 
 @media (min-width: 980px) {
   .page-body {
@@ -54,8 +77,16 @@
     width: 65%;
     padding: 2rem;
   }
+  .left-section-variant {
+    width: 70%;
+    padding: 2rem 0 2rem 1rem;
+  }
   .right-section {
     width: 35%;
+    padding: 2rem;
+  }
+  .right-section-variant {
+    width: 30%;
     padding: 2rem;
   }
 }

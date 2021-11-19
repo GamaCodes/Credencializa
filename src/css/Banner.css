@@ -1,0 +1,64 @@
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100vw;
+}
+
+.navbar-s {
+  position: absolute;
+  z-index: 999;
+  background-color: rgba(255,255,255,0.8);
+  width: 100vw;
+}
+
+.bannercontent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: none;
+  bottom: 3px;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.bannercaption {
+  width: auto;
+  float: none;
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px 13px 19px;
+}
+
+.bannercontent h3 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-transform: none;
+  color: #ffffff;
+  text-shadow: none;
+  font-size: 38px;
+  font: 600 32px/36px 'Roboto Condensed', sans-serif;
+}
+
+.banner_sub_heading {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: normal;
+  text-shadow: none;
+  line-height: 27px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgba(0,67,67,1.0);
+  border: 1px solid #004343;
+  color: #ffffff;
+  padding: 8px 20px;
+  display: inline-block;
+  font: 400 14px/22px 'PT Sans', sans-serif;
+  margin-top: 15px;
+}

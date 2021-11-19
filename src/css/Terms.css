@@ -13,6 +13,7 @@
 
 .terms-contain p {
   color: var(--gray10);
+  text-align: justify;
 }
 
 .terms-contain li {
@@ -25,3 +26,11 @@
   list-style-position: inside;
 }
 
+.terms-contain .ol-letter {
+  list-style-type:lower-alpha;
+  padding-left: 1rem;
+}
+
+li {
+  text-align: justify;
+}
