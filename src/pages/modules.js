@@ -11,7 +11,7 @@ export default function modules() {
             Módulos <br /> <span>de Impresión</span>
           </h1>
 
-          <div>
+          <div className="module-img-contain">
             <img
               src="./mapa.png"
               alt="Modulos de impresion"

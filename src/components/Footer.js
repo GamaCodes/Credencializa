@@ -7,15 +7,15 @@ export default function Footer() {
       <div className="footer">
         <img src="./white.png" alt="Logo vacunamex blanco" />
       </div>
-      <div className="footer">
+      <div className="footer-variant">
         <HiPhone />
         <p>  3330612330  </p>
-        <HiMail /> <p>info@credencializatuvacuna.mx </p>
         <HiLocationMarker />
         <p>
           Calle Bogota 2825 Piso 4 Colonia Providencia, Guadalajara, Jalisco
           44630
         </p>
+        <HiMail /> <p>info@credencializatuvacuna.mx </p>
       </div>
       <div className="footer">
         <section>Credencializa Tu Vacuna MX</section>

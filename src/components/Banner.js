@@ -9,18 +9,18 @@ export default function Banner(props) {
         <Navbar />
       </div>
       {props && props.home ? (
-        <div className="banner">
+        <div className="banner banner-mobile">
           <img src="./banner.jpeg" alt="Logo vacunamex" className="" />
-          <div class="bannercontent">
-            <div class="container">
-              <div class="bannercaption">
-                <div class="banner_heading">
+          <div className="bannercontent">
+            <div className="container">
+              <div className="bannercaption">
+                <div className="banner_heading">
                   <h3>Credencializa tu Certificado de Vacunación</h3>
                 </div>
-                <div class="banner_sub_heading"></div>
-                <div class="banner_button">
+                <div className="banner_sub_heading"></div>
+                <div>
                   <a
-                    class="button bannerbutton"
+                    className="button bannerbutton"
                     href="https://forms.gle/ommbikjhejM5p6aXA"
                   >
                     SOLICÍTALA EN LÍNEA
@@ -34,6 +34,24 @@ export default function Banner(props) {
         <div className="banner">
           <img src="./banner2.jpeg" alt="Logo vacunamex" className="" />
         </div>
+      )}
+
+      {props && props.home ? (
+        <>
+          <div className="banner banner-display">
+            <img src="./banner.jpeg" alt="Logo vacunamex" className="" />
+          </div>
+          <div className="banner-button">
+            <a
+              className="button bannerbutton"
+              href="https://forms.gle/ommbikjhejM5p6aXA"
+            >
+              SOLICÍTALA EN LÍNEA
+            </a>
+          </div>
+        </>
+      ) : (
+        <></>
       )}
     </div>
   );

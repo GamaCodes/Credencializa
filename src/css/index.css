@@ -59,7 +59,8 @@
 }
 
 .img-card {
-  width: 25vw;
+  width: 50vw;
+  filter: drop-shadow(10px 10px 8px #404042);
 }
 
 p {
@@ -86,5 +87,8 @@ p {
   .right-section-variant {
     width: 30%;
     padding: 2rem;
+  }
+  .img-card {
+    width: 25vw;
   }
 }

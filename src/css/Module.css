@@ -2,6 +2,7 @@
   font-size: 1.1rem;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .locations p{
@@ -16,7 +17,27 @@
 }
 
 .locations section{
-  margin-bottom: 2rem;
-  padding: 1rem;
+  padding: 0 0 0 5rem ;
 }
 
+.module-img {
+  width: 90vw;
+}
+
+.module-img-contain {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 980px) {
+  .module-img {
+    width: 100%;
+  }
+  .locations {
+    flex-direction: row;
+  }
+  .locations section{
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+}
