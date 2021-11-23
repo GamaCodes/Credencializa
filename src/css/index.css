@@ -70,7 +70,7 @@ p {
 @media (min-width: 980px) {
   .page-body {
     flex-direction: row;
-    padding: 1rem 12rem;
+    padding: 1rem 6rem;
   }
   .left-section {
     width: 65%;

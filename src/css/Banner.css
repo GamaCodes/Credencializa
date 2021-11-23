@@ -31,7 +31,7 @@
 }
 
 .container {
-  width: 1100px;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -40,6 +40,7 @@
   float: none;
   background-color: rgba(0,0,0,0.7);
   padding: 15px 13px 19px;
+  margin: 0 3rem;
 }
 
 .bannercontent h3 {
@@ -95,5 +96,15 @@
   }
   .banner-button {
     display: none;
+  }
+}
+
+@media (max-width: 1210px) {
+  .bannercaption {
+    width: auto;
+    float: none;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px 13px 19px;
+    margin: 0 1rem;
   }
 }
