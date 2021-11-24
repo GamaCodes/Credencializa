@@ -14,15 +14,6 @@
   font-family: 'PT Sans', Helvetica, sans-serif;
 }
 
-.footer-variant {
-  padding-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: 'PT Sans', Helvetica, sans-serif;
-  padding-top: 1rem;
-}
-
 .footer img{
   width: 15vw;
 }
@@ -33,6 +24,13 @@
 
 .footer-variant p{
   text-align: center;
+}
+
+.footer-variant-div {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -48,7 +46,6 @@
   .footer-variant-div {
     display: flex;
     margin: .5rem 0;
-
   }
   .footer-variant p{
     margin: 0 3rem;
