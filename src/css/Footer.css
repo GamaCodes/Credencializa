@@ -43,8 +43,12 @@
   }
   .footer-variant {
     justify-content: center;
-    flex-direction: row;
     padding-top: 0;
+  }
+  .footer-variant-div {
+    display: flex;
+    margin: .5rem 0;
+
   }
   .footer-variant p{
     margin: 0 3rem;
