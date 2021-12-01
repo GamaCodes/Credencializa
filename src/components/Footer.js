@@ -1,5 +1,4 @@
 import React from "react";
-import { HiMail, HiLocationMarker } from "react-icons/hi";
 import { BsWhatsapp } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
@@ -7,28 +6,52 @@ export default function Footer() {
   return (
     <>
       <div className="footer-containt">
-        <div className="footer">
-          <img src="./white.png" alt="Logo vacunamex blanco" />
-        </div>
-        <div className="footer-variant">
-          <div className="footer-variant-div">
-            <p className="footer-number"> Llámanos (55) 6820 2119</p>
+        <section>
+          <div className="footer">
+            <img src="./white.png" alt="Logo vacunamex blanco" />
+            <section>
+              <p className="footer-number"> Llámanos (55) 6820 2119</p>
+              <p>info@credencializatuvacuna.mx </p>
+            </section>
           </div>
-          <div className="footer-variant-div">
-            <HiLocationMarker />
-            <p>
-              Juan Vázquez de Mella 481 piso 2 Col. Los Morales Polanco, 11510,
-              CDMX, Méxic
-            </p>
+
+          <div className="footer-text">
+            <section>
+              Credencializa Tu Vacuna MX | Todos los derechos reservados.
+            </section>
           </div>
-          <div className="footer-variant-div">
-            <HiMail /> <p>info@credencializatuvacuna.mx </p>
+        </section>
+        <section>
+          <img
+            src="./pvcDiagonalVariant.png"
+            alt="Credencial de vacunacion"
+            className="img-card"
+          />
+        </section>
+        <section className="footer-places">
+          <h4>OFICINAS EN MÉXICO</h4>
+          <div>
+            <p className="footer-cities">Ciudad de México</p>
+            <p>Juan Vázquez de Mella 481 piso 2</p>
+            <p>Col. Los Morales Polanco, 11510</p>
+            <p>Tel. (55) 6820 2119</p>
           </div>
-        </div>
-        <div className="footer">
-          <section>Credencializa Tu Vacuna MX</section>
-          <section>Todos los derechos reservados.</section>
-        </div>
+          <div>
+            <p className="footer-cities">Guadalajara</p>
+            <p>Providencia. Bogotá 2825</p>
+            <p>Col. Providencia 4ta sección, 44639</p>
+            <p>Tel. (55) 6820 2119</p>
+          </div>
+          <div>
+            <p className="footer-cities">Baja California</p>
+            <p>Blvd. benito Juárez 4325</p>
+            <p>Ex-Ejido Coahuila, 21360</p>
+            <p>Tel. (55) 6820 2119</p>
+          </div>
+        </section>
+        <section className="footer-mobile">
+          Credencializa Tu Vacuna MX | Todos los derechos reservados.
+        </section>
       </div>
       <div className="wa-button">
         <a
