@@ -14,6 +14,7 @@
 
 .nav-options li{
   padding: 0 2rem;
+  cursor: pointer;
 }
 
 .mobile-option {
@@ -31,6 +32,7 @@
 .icon-social {
   color: var(--secondary);
   padding: 1.5rem;
+  cursor: pointer;
 }
 
 .icon-contain {
@@ -62,6 +64,7 @@
   .icon-social {
     color: var(--secondary);
     padding: 1rem;
+    cursor: pointer;
   }
 }
 

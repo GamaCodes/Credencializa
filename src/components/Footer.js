@@ -1,5 +1,5 @@
 import React from "react";
-import { HiPhone, HiMail, HiLocationMarker } from "react-icons/hi";
+import { HiMail, HiLocationMarker } from "react-icons/hi";
 import { BsWhatsapp } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
@@ -12,14 +12,13 @@ export default function Footer() {
         </div>
         <div className="footer-variant">
           <div className="footer-variant-div">
-            <HiPhone />
-            <p>  3330612330  </p>
+            <p className="footer-number"> Llámanos (55) 6820 2119</p>
           </div>
           <div className="footer-variant-div">
             <HiLocationMarker />
             <p>
-              Calle Bogota 2825 Piso 4 Colonia Providencia, Guadalajara, Jalisco
-              44630
+              Juan Vázquez de Mella 481 piso 2 Col. Los Morales Polanco, 11510,
+              CDMX, Méxic
             </p>
           </div>
           <div className="footer-variant-div">

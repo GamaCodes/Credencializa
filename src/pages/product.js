@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner";
+import FeedInstagram from "../components/FeedInstagram";
 
 export default function product() {
   return (
@@ -43,7 +44,7 @@ export default function product() {
               <section>
                 <h3 className="subtitle-product">Portabilidad</h3>
                 <p>
-                  - Imprime tu certificado de vacunación en formato credencial y
+                  Imprime tu certificado de vacunación en formato credencial y
                   llévalo siempre contigo en tu celular, cartera, bolsa o tu
                   mochila.
                 </p>
@@ -51,7 +52,7 @@ export default function product() {
               <section>
                 <h3 className="subtitle-product">Durabilidad</h3>
                 <p>
-                  - Hecha con PVC de alta resistencia para evita deformaciones o
+                  Hecha con PVC de alta resistencia para evita deformaciones o
                   roturas.
                 </p>
               </section>
@@ -60,9 +61,9 @@ export default function product() {
                   Uso nacional e internacional
                 </h3>
                 <p>
-                  - Gracias a su código QR y a sus hologramas de validez
-                  certifica que has recibido tus dos dosis de vacunas en México
-                  con validez en todo el mundo.**
+                  Gracias a su código QR y a sus hologramas de validez certifica
+                  que has recibido tus dos dosis de vacunas en México con
+                  validez en todo el mundo.**
                 </p>
               </section>
               <section>
@@ -77,7 +78,7 @@ export default function product() {
             </div>
             <div>
               <img
-                src="./pvcDiagonal.png"
+                src="./pvcDiagonalVariant.png"
                 alt="Credencial de vacunacion"
                 className="img-card"
               />
@@ -92,9 +93,17 @@ export default function product() {
               className="logotexto-vacuna"
             />
           </div>
+          <FeedInstagram />
           <div className="right-terms-img">
             <img
               src="./post.png"
+              alt="Logo vacunamex"
+              className="post-vacuna"
+            />
+          </div>
+          <div className="right-terms-img">
+            <img
+              src="./usacer.png"
               alt="Logo vacunamex"
               className="post-vacuna"
             />

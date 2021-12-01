@@ -38,10 +38,11 @@ li {
 .right-terms-img {
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .post-vacuna {
-  width: 70vw;
+  width: 80vw;
 }
 
 .logotexto-vacuna {
@@ -52,9 +53,9 @@ li {
 @media (min-width: 980px) {
   .logotexto-vacuna {
     width: 18vw;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
   }
   .post-vacuna {
-    width: 20vw;
+    width: 25vw;
   }
 }

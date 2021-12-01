@@ -1,0 +1,109 @@
+.feed-logo {
+  width: 20vw;
+  border-radius: 100%;
+}
+
+.feed-img {
+  width: 23vw;
+  height: 23vw;
+}
+
+.feed {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-body {
+  margin: 0 0 1rem 0;
+  width: 80vw;
+  background-color: white;
+  border: 3px solid var(--primary);
+  padding: 1rem 0;
+}
+
+.feed-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feed-header-text {
+  text-align: center;
+}
+
+.feed-header-title {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.feed-header-subtitle {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.feed-header-company {
+  font-size: 15px;
+  font-weight: 300;
+  color: #8e8e8e;
+}
+
+.feed-header-des{
+  font-size: .8rem;
+  text-align: center;
+}
+
+.feed-header-text button{
+  padding: 0 24px;
+  background-color: #0095f6;
+  border-color: #0095f6;
+  color: var(--white);
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  outline: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.feed-header-text a{
+  background-color: #0095f6;
+  border-color: #0095f6;
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  outline: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+.feed-info {
+  margin: 0 1.3rem;
+}
+
+.feed-carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 .5rem;
+  padding-bottom: .5rem;
+}
+
+@media (min-width: 980px) {
+  .feed-img {
+    width: 7vw;
+    height: 7vw;
+  }
+  .feed-body {
+    width: 25vw;
+  }
+  .feed-logo {
+    width: 5vw;
+    border-radius: 100%;
+    padding: .5rem;
+  }
+}

@@ -44,6 +44,10 @@
   cursor: pointer;
 }
 
+.footer-number{
+  font-size: 2rem;
+}
+
 .wa-social {
   color: white;
 }

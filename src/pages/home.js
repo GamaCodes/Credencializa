@@ -33,7 +33,7 @@ export default function Home() {
           }}
         >
           <img
-            src="./productooo.jpg"
+            src="./productVariant.png"
             alt="Nuestro Producto"
             className="option-img"
           />

@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/Banner";
+import FeedInstagram from "../components/FeedInstagram";
 
 export default function terms() {
   return (
@@ -160,9 +161,17 @@ export default function terms() {
               className="logotexto-vacuna"
             />
           </div>
+          <FeedInstagram />
           <div className="right-terms-img">
             <img
               src="./post.png"
+              alt="Logo vacunamex"
+              className="post-vacuna"
+            />
+          </div>
+          <div className="right-terms-img">
+            <img
+              src="./usacer.png"
               alt="Logo vacunamex"
               className="post-vacuna"
             />
