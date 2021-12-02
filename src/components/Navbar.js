@@ -24,10 +24,37 @@ export default function Navbar() {
         <IconContext.Provider
           value={{ className: "icon-social", size: "1.3rem" }}
         >
-          <ImFacebook />
-          <ImTwitter />
-          <ImYoutube />
-          <ImLinkedin2 />
+          <a
+            href="https://www.facebook.com/CredencializaTuVacunaMX"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImFacebook />
+          </a>
+
+          <a
+            href="https://twitter.com/CredencializaMx"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImTwitter />
+          </a>
+
+          <a
+            href="https://www.youtube.com/channel/UCTHsyaig5ORSiDQ49_hgU2w"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImYoutube />
+          </a>
+
+          <a
+            href="https://www.instagram.com/credencializa_tu_vacuna/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImLinkedin2 />
+          </a>
         </IconContext.Provider>
       </div>
       <div className="header">
@@ -84,10 +111,37 @@ export default function Navbar() {
           <IconContext.Provider
             value={{ className: "icon-social", size: "1.3rem" }}
           >
-            <ImFacebook />
-            <ImTwitter />
-            <ImYoutube />
-            <ImLinkedin2 />
+            <a
+              href="https://www.facebook.com/CredencializaTuVacunaMX"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImFacebook />
+            </a>
+
+            <a
+              href="https://twitter.com/CredencializaMx"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImTwitter />
+            </a>
+
+            <a
+              href="https://www.youtube.com/channel/UCTHsyaig5ORSiDQ49_hgU2w"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImYoutube />
+            </a>
+
+            <a
+              href="https://www.instagram.com/credencializa_tu_vacuna/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImLinkedin2 />
+            </a>
           </IconContext.Provider>
         </div>
 

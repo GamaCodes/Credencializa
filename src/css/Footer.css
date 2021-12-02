@@ -83,6 +83,11 @@
   font-size: .8rem;
 }
 
+.footer-download {
+  width: 80vw;
+  margin: 1rem 0 2rem 0;
+}
+
 @media (min-width: 980px) {
   .footer-containt {
     flex-direction: row;
@@ -116,5 +121,11 @@
   }
   .footer-text {
     display: block;
+  }
+  .footer-download {
+    width: 20vw;
+  }
+  .footer-div-download {
+    text-align: center;
   }
 }

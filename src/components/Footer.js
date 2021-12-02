@@ -14,7 +14,19 @@ export default function Footer() {
               <p>info@credencializatuvacuna.mx </p>
             </section>
           </div>
-
+          <div className="footer-div-download">
+            <a
+              href="https://cvcovid.salud.gob.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./boton.jpeg"
+                alt="Descargar certificado de vacunacion"
+                className="footer-download"
+              />
+            </a>
+          </div>
           <div className="footer-text">
             <section>
               Credencializa Tu Vacuna MX | Todos los derechos reservados.

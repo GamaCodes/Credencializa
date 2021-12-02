@@ -75,6 +75,14 @@ export default function Home() {
           alt="Modulos de impresion"
           className="service-img"
         />
+        <br />
+        <a href="https://coronavirus.gob.mx/" target="_blank" rel="noreferrer">
+          <img
+            src="./bannerpromo.jpeg"
+            alt="Modulos de impresion"
+            className="service-img"
+          />
+        </a>
       </section>
     </div>
   );
