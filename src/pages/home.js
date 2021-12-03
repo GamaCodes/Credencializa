@@ -75,12 +75,45 @@ export default function Home() {
           alt="Modulos de impresion"
           className="service-img"
         />
+      </section>
+      <section className="service-option">
+        <h1 className="title">
+          Más <span>Información</span>
+        </h1>
+        <div className="home-video">
+          <section>
+            <iframe
+              src="https://www.youtube.com/embed/oOehXXrljrU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="home-video-body"
+            ></iframe>
+          </section>
+          <section>
+            <div className="footer-div-download">
+              <a
+                href="https://cvcovid.salud.gob.mx/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="./boton.jpeg"
+                  alt="Descargar certificado de vacunacion"
+                  className="home-download"
+                />
+              </a>
+            </div>
+          </section>
+        </div>
+
         <br />
         <a href="https://coronavirus.gob.mx/" target="_blank" rel="noreferrer">
           <img
             src="./bannerpromo.jpeg"
             alt="Modulos de impresion"
-            className="service-img"
+            className="service-image"
           />
         </a>
       </section>
