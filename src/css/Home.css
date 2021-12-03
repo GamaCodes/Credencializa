@@ -104,6 +104,10 @@
   height: 40vh;
 }
 
+.home-column-usa {
+  text-align: center;
+}
+
 @media (min-width: 980px) {
   .option-home {
     flex-direction: row;
@@ -123,7 +127,7 @@
     width: 80vw;
   }
   .home-download {
-    width: 26vw;
+    width: 25vw;
   }
   .home-video {
     display: flex;
@@ -132,6 +136,12 @@
   }
   .home-video-body {
     width: 53vw;
-    height: 55vh;
+    height: 70vh;
+  }
+  .home-video-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }

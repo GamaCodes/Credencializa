@@ -60,22 +60,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="service-option">
-        <h1 className="title">
-          Nuestro <span>Servicio</span>
-        </h1>
-        <img
-          src="./mex.png"
-          alt="Modulos de impresion"
-          className="service-img"
-        />
-        <br />
-        <img
-          src="./usa.png"
-          alt="Modulos de impresion"
-          className="service-img"
-        />
-      </section>
+
       <section className="service-option">
         <h1 className="title">
           Más <span>Información</span>
@@ -91,7 +76,7 @@ export default function Home() {
               className="home-video-body"
             ></iframe>
           </section>
-          <section>
+          <section className="home-video-column">
             <div className="footer-div-download">
               <a
                 href="https://cvcovid.salud.gob.mx/"
@@ -104,6 +89,13 @@ export default function Home() {
                   className="home-download"
                 />
               </a>
+            </div>
+            <div className="home-column-usa">
+              <img
+                src="./usacer.png"
+                alt="Logo vacunamex"
+                className="post-vacuna"
+              />
             </div>
           </section>
         </div>

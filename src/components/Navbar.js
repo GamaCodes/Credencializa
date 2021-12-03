@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ImYoutube, ImLinkedin2, ImFacebook, ImTwitter } from "react-icons/im";
+import { ImYoutube, ImFacebook, ImTwitter } from "react-icons/im";
 import { HiMenu, HiX } from "react-icons/hi";
+import { RiInstagramFill } from "react-icons/ri";
 import { IconContext } from "react-icons";
 
 export default function Navbar() {
@@ -53,7 +54,7 @@ export default function Navbar() {
             target="_blank"
             rel="noreferrer"
           >
-            <ImLinkedin2 />
+            <RiInstagramFill />
           </a>
         </IconContext.Provider>
       </div>
@@ -140,7 +141,7 @@ export default function Navbar() {
               target="_blank"
               rel="noreferrer"
             >
-              <ImLinkedin2 />
+              <RiInstagramFill />
             </a>
           </IconContext.Provider>
         </div>
