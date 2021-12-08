@@ -83,9 +83,30 @@
   font-size: .8rem;
 }
 
+.footer-mobile p {
+  text-align: center;
+}
+
+
 .footer-download {
   width: 80vw;
   margin: 1rem 0 2rem 0;
+}
+
+.footer-email {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.footer-cdmx-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-cdmx p {
+  margin: 0;
+  text-align: end;
 }
 
 @media (min-width: 980px) {

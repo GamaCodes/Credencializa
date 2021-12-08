@@ -39,7 +39,9 @@ export default function product() {
                 </p>
               </section>
               <section>
-                <h2 className="subtitle-product">Ventajas</h2>
+                <h2 className="subtitle-product subtitle-product-variant">
+                  Ventajas
+                </h2>
               </section>
               <section>
                 <h3 className="subtitle-product">Portabilidad</h3>
@@ -66,7 +68,7 @@ export default function product() {
                   validez en todo el mundo.**
                 </p>
               </section>
-              <section>
+              <section className="product-others">
                 <p>
                   * Uso exclusivo para personas vacunadas
                   <p>
@@ -76,7 +78,15 @@ export default function product() {
                 </p>
               </section>
             </div>
-            <div>
+            <div className="product-body-video">
+              <video
+                src="./video3.mp4"
+                className="product-video"
+                autoPlay
+                preload
+                muted
+                loop
+              ></video>
               <img
                 src="./pvcDiagonalVariant.png"
                 alt="Credencial de vacunacion"
@@ -84,27 +94,54 @@ export default function product() {
               />
             </div>
           </div>
+          <div>
+            <a
+              href="https://cvcovid.salud.gob.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <video
+                src="./video2.mp4"
+                className="banner-video-company"
+                autoPlay
+                preload
+                muted
+                loop
+              ></video>
+            </a>
+          </div>
         </div>
+
         <div className="right-section-variant">
           <div className="right-terms-img">
-            <img
-              src="./logotexto.png"
-              alt="Logo vacunamex"
-              className="logotexto-vacuna"
-            />
+            <a
+              href="https://cvcovid.salud.gob.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./boton.jpeg"
+                alt="Descargar certificado de vacunacion"
+                className="logotexto-vacuna"
+              />
+            </a>
           </div>
           <FeedInstagram />
           <div className="right-terms-img">
-            <img
-              src="./post.png"
-              alt="Logo vacunamex"
+            <video
+              src="./video1.mp4"
               className="post-vacuna"
-            />
+              autoPlay
+              preload
+              muted
+              loop
+            ></video>
           </div>
           <div className="right-terms-img">
             <img
-              src="./usacer.png"
-              alt="Logo vacunamex"
+              src="./paypal.jpg"
+              alt="Metodo de pago Paypal"
               className="post-vacuna"
             />
           </div>

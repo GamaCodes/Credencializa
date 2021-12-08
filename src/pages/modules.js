@@ -22,61 +22,110 @@ export default function modules() {
 
           <h2 className="title">Ubicaciones</h2>
           <div className="locations">
-            <section>
-              <p>Baja California</p>
-              <p>
-                <span>Mexicali</span>
-              </p>
-              <p>
-                <span>Tijuana</span>
-              </p>
-            </section>
-            <section>
-              <p>Sinaloa</p>
-              <p>
-                <span>Culiacán</span>
-              </p>
-              <p>
-                <span>Mazatlán</span>
-              </p>
-            </section>
-            <section>
-              <p>Jalisco</p>
-              <p>
-                <span>Guadalajara</span>
-              </p>
-            </section>
-            <section>
-              <p>Sonora</p>
-              <p>
-                <span>Hermosillo</span>
-              </p>
-            </section>
-            <section>
-              <p>CDMX</p>
-            </section>
+            <>
+              <section>
+                <p>Baja California</p>
+                <p>
+                  <span>Mexicali</span>
+                </p>
+                <ul>
+                  <li>Centro Cívico | Palacio Federal sobre calle pioneros.</li>
+                  <li>
+                    Boulevard Benito Juárez aun costado de Pinturas COMEX.
+                  </li>
+                  <li>Estadio de Beisbol | Nido de los Águilas.</li>
+                  <li>Plaza Cachanilla.</li>
+                </ul>
+
+                <p>
+                  <span>Tijuana</span>
+                </p>
+                <ul>
+                  <li>Zona Urbana Rio | Frente a Office Max.</li>
+                  <li>Plaza Galerias.</li>
+                </ul>
+              </section>
+              <section>
+                <p>Sinaloa</p>
+                <p>
+                  <span>Culiacán</span>
+                </p>
+
+                <ul>
+                  <li>Gral. Angel Flores 370 Ote. Colonia Centro 80000 </li>
+                </ul>
+              </section>
+
+              <section>
+                <p>Jalisco</p>
+                <p>
+                  <span>Guadalajara</span>
+                </p>
+
+                <ul>
+                  <li>Estadio de Beisbol | Charros de Jalisco.</li>
+                  <li>Providencia 4ta Sección | Bogotá 2825.</li>
+                </ul>
+              </section>
+
+              <section>
+                <p>CDMX</p>
+                <ul>
+                  <li>Polanco | Juan Vázquez de Mella 481 piso 2.</li>
+                  <li>Basílica de Nuestra Sra. De Guadalupe.</li>
+                  <li>Autódromo Hnos. Rodriguez Puerta 6 (Eventos)</li>
+                  <li>Alcaldía Iztacalco</li>
+                </ul>
+              </section>
+            </>
+          </div>
+          <div>
+            <a
+              href="https://cvcovid.salud.gob.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <video
+                src="./video2.mp4"
+                className="banner-video-company"
+                autoPlay
+                preload
+                muted
+                loop
+              ></video>
+            </a>
           </div>
         </div>
         <div className="right-section">
           <div className="right-terms-img">
-            <img
-              src="./logotexto.png"
-              alt="Logo vacunamex"
-              className="logotexto-vacuna"
-            />
+            <a
+              href="https://cvcovid.salud.gob.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./boton.jpeg"
+                alt="Descargar certificado de vacunacion"
+                className="logotexto-vacuna"
+              />
+            </a>
           </div>
           <FeedInstagram />
           <div className="right-terms-img">
-            <img
-              src="./post.png"
-              alt="Logo vacunamex"
+            <video
+              src="./video1.mp4"
               className="post-vacuna"
-            />
+              autoPlay
+              preload
+              muted
+              loop
+            ></video>
           </div>
           <div className="right-terms-img">
             <img
-              src="./usacer.png"
-              alt="Logo vacunamex"
+              src="./paypal.jpg"
+              alt="Metodo de pago Paypal"
               className="post-vacuna"
             />
           </div>

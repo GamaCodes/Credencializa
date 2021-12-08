@@ -93,6 +93,14 @@
   display: flex;
   justify-content:space-between;
   flex-direction: column;
+  align-items: center;
+}
+
+.home-youtub-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-download {
@@ -102,6 +110,11 @@
 .home-video-body {
   width: 90vw;
   height: 40vh;
+}
+
+.video-company {
+  width: 90vw;
+  height: auto;
 }
 
 .home-column-usa {
@@ -136,7 +149,12 @@
   }
   .home-video-body {
     width: 53vw;
-    height: 70vh;
+    height: 60vh;
+    padding-bottom: 1rem;
+  }
+  .video-company {
+    width: 53vw;
+    height: auto;
   }
   .home-video-column {
     display: flex;

@@ -66,7 +66,7 @@ export default function Home() {
           Más <span>Información</span>
         </h1>
         <div className="home-video">
-          <section>
+          <section className="home-youtub-video">
             <iframe
               src="https://www.youtube.com/embed/0TEWsb8e1CY"
               title="YouTube video player"
@@ -75,6 +75,20 @@ export default function Home() {
               allowfullscreen
               className="home-video-body"
             ></iframe>
+            <a
+              href="https://cvcovid.salud.gob.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <video
+                src="./video2.mp4"
+                className="video-company"
+                autoPlay
+                preload
+                muted
+                loop
+              ></video>
+            </a>
           </section>
           <section className="home-video-column">
             <div className="footer-div-download">
@@ -91,15 +105,24 @@ export default function Home() {
               </a>
             </div>
             <div className="home-column-usa">
+              <video
+                src="./video1.mp4"
+                className="home-download"
+                autoPlay
+                preload
+                muted
+                loop
+              ></video>
+            </div>
+            <div className="footer-div-download">
               <img
-                src="./usacer.png"
-                alt="Logo vacunamex"
-                className="post-vacuna"
+                src="./paypal.jpg"
+                alt="Boton de paypal"
+                className="home-download"
               />
             </div>
           </section>
         </div>
-
         <br />
         <a href="https://coronavirus.gob.mx/" target="_blank" rel="noreferrer">
           <img

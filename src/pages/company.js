@@ -38,27 +38,53 @@ export default function company() {
               <p>Calidad, seguridad, compromiso y responsabilidad social.</p>
             </section>
           </div>
+          <div>
+            <a
+              href="https://cvcovid.salud.gob.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <video
+                src="./video2.mp4"
+                className="banner-video-company"
+                autoPlay
+                preload
+                muted
+                loop
+              ></video>
+            </a>
+          </div>
         </div>
         <div className="right-section">
           <div className="right-terms-img">
-            <img
-              src="./logotexto.png"
-              alt="Logo vacunamex"
-              className="logotexto-vacuna"
-            />
+            <a
+              href="https://cvcovid.salud.gob.mx/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./boton.jpeg"
+                alt="Descargar certificado de vacunacion"
+                className="logotexto-vacuna"
+              />
+            </a>
           </div>
           <FeedInstagram />
           <div className="right-terms-img">
-            <img
-              src="./post.png"
-              alt="Logo vacunamex"
+            <video
+              src="./video1.mp4"
               className="post-vacuna"
-            />
+              autoPlay
+              preload
+              muted
+              loop
+            ></video>
           </div>
           <div className="right-terms-img">
             <img
-              src="./usacer.png"
-              alt="Logo vacunamex"
+              src="./paypal.jpg"
+              alt="Metodo de pago Paypal"
               className="post-vacuna"
             />
           </div>

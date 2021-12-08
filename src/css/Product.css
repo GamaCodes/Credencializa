@@ -6,8 +6,49 @@
   flex-direction: column-reverse;
 }
 
+.product-video{
+  width: 80vw;
+  height: auto;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+.subtitle-product-variant{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.banner-video-company {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.product-others {
+  margin-top: 3rem;
+}
+
+.product-body-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column-reverse
+}
+
 @media (min-width: 980px) {
   .product-contain {
     flex-direction: row;
+  }
+  .banner-video-company {
+    margin-top: 5rem;
+  }
+  .product-video{
+    width: 18vw;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  .product-body-video{
+    flex-direction: column;
   }
 }

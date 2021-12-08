@@ -46,14 +46,14 @@ li {
 }
 
 .logotexto-vacuna {
-  width: 50vw;
-  margin-bottom: 3rem;
+  width: 80vw;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 980px) {
   .logotexto-vacuna {
-    width: 18vw;
-    margin-bottom: 1rem;
+    width: 25vw;
+    margin-bottom: 0;
   }
   .post-vacuna {
     width: 25vw;

@@ -89,6 +89,7 @@ p {
     padding: 2rem;
   }
   .img-card {
-    width: 25vw;
+    width: 20vw;
+    padding: 0 3rem;
   }
 }

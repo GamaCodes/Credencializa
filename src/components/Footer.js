@@ -11,7 +11,15 @@ export default function Footer() {
             <img src="./white.png" alt="Logo vacunamex blanco" />
             <section>
               <p className="footer-number"> Llámanos (55) 6820 2119</p>
-              <p>info@credencializatuvacuna.mx </p>
+              <div className="footer-cdmx">
+                <p className="footer-cdmx-title">Ciudad de México</p>
+                <p className="footer-cdmx-add">
+                  Juan Vázquez de Mella 481 piso 2
+                </p>
+                <p className="footer-cdmx-add">
+                  Col. Los Morales Polanco, 11510
+                </p>
+              </div>
             </section>
           </div>
           <div className="footer-div-download">
@@ -31,6 +39,9 @@ export default function Footer() {
             <section>
               Credencializa Tu Vacuna MX | Todos los derechos reservados.
             </section>
+            <section>
+              <p className="footer-email">info@credencializatuvacuna.mx </p>
+            </section>
           </div>
         </section>
         <section>
@@ -41,13 +52,7 @@ export default function Footer() {
           />
         </section>
         <section className="footer-places">
-          <h4>OFICINAS EN MÉXICO</h4>
-          <div>
-            <p className="footer-cities">Ciudad de México</p>
-            <p>Juan Vázquez de Mella 481 piso 2</p>
-            <p>Col. Los Morales Polanco, 11510</p>
-            <p>Tel. (55) 6820 2119</p>
-          </div>
+          <h4>OFICINAS EN INTERIOR DE LA REPUBLICA</h4>
           <div>
             <p className="footer-cities">Guadalajara</p>
             <p>Providencia. Bogotá 2825</p>
@@ -60,9 +65,17 @@ export default function Footer() {
             <p>Ex-Ejido Coahuila, 21360</p>
             <p>Tel. (55) 6820 2119</p>
           </div>
+          <div>
+            <p className="footer-cities">Sinaloa</p>
+            <p>Gral. Angel Flores 370 Ote.</p>
+            <p>Colonia Centro, 80000</p>
+            <p>Culiacán, Sinaloa.</p>
+            <p>Tel. (686) 695 3880</p>
+          </div>
         </section>
         <section className="footer-mobile">
-          Credencializa Tu Vacuna MX | Todos los derechos reservados.
+          <p>Credencializa Tu Vacuna MX | Todos los derechos reservados.</p>
+          <p>info@credencializatuvacuna.mx </p>
         </section>
       </div>
       <div className="wa-button">
