@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Banner from "../components/Banner";
 import FeedInstagram from "../components/FeedInstagram";
 
-export default function terms() {
+export default function Terms() {
+  const navigate = useNavigate();
   return (
     <>
       <Banner home={false} />
@@ -153,21 +155,18 @@ export default function terms() {
             </section>
           </div>
           <div>
-            <a
-              href="https://cvcovid.salud.gob.mx/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <video
-                src="./video2.mp4"
-                className="banner-video-company"
-                autoPlay
-                preload
-                muted
-                loop
-              ></video>
-            </a>
+            <video
+              src="./video2.mp4"
+              className="banner-video-company"
+              autoPlay
+              preload
+              muted
+              loop
+              onClick={() => {
+                navigate("/corporativo");
+                window.scrollTo(0, 0);
+              }}
+            ></video>
           </div>
         </div>
         <div className="right-section">

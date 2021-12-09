@@ -57,13 +57,13 @@ export default function Footer() {
             <p className="footer-cities">Guadalajara</p>
             <p>Providencia. Bogotá 2825</p>
             <p>Col. Providencia 4ta sección, 44639</p>
-            <p>Tel. (55) 6820 2119</p>
+            <p>Tel. (33) 3061 2330</p>
           </div>
           <div>
             <p className="footer-cities">Baja California</p>
             <p>Blvd. benito Juárez 4325</p>
             <p>Ex-Ejido Coahuila, 21360</p>
-            <p>Tel. (55) 6820 2119</p>
+            <p>Tel. (686) 695 3880</p>
           </div>
           <div>
             <p className="footer-cities">Sinaloa</p>

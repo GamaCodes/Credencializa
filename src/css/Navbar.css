@@ -47,6 +47,7 @@
   height: 4rem;
   width: auto;
   padding: 2rem;
+  cursor: pointer;
 }
 
 .logo-contain {

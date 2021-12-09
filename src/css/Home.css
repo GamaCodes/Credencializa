@@ -115,6 +115,7 @@
 .video-company {
   width: 90vw;
   height: auto;
+  cursor: pointer;
 }
 
 .home-column-usa {

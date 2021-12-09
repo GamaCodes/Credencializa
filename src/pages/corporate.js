@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Banner from "../components/Banner";
 import FeedInstagram from "../components/FeedInstagram";
 
-export default function Company() {
+export default function Privacy() {
   const navigate = useNavigate();
   return (
     <>
@@ -11,47 +11,29 @@ export default function Company() {
       <div className="page-body">
         <div className="left-section">
           <h1 className="title">
-            Nuestra <br /> <span>Empresa</span>
+            Formulario <br /> <span>Corporativo</span>
           </h1>
-          <div className="terms-contain">
-            <section>
-              <h2 className="subtitle-product">Misión</h2>
-              <p>
-                Nuestro compromiso es facilitar la movilidad del{" "}
-                <span className="terms-name">certificado de vacunación </span>{" "}
-                completo contra la COVID-19 a los mexicanos.
-              </p>
-            </section>
-            <section>
-              <h2 className="subtitle-product">Visión </h2>
-              <p>
-                Promover la seguridad sanitaria de las y los mexicanos en todo
-                el mundo.
-              </p>
-              <p>
-                Somos una empresa 100% mexicana con presencia en las principales
-                ciudades del territorio nacional. Nuestro objetivo es imprimir
-                credenciales que acreditan el certificado de vacunación contra
-                la COVID-19, en PVC.{" "}
-              </p>
-            </section>
-            <section>
-              <h3 className="subtitle-product">Valores </h3>
-              <p>Calidad, seguridad, compromiso y responsabilidad social.</p>
-            </section>
+          <div>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSebrIvtiOX2NjtBxTzRp5BSYyHG7HQM5l6knSreizBYGYjxWQ/viewform?embedded=true"
+              className="corporate-form"
+              title="Google Forms - Credencializa"
+            >
+              Cargando…
+            </iframe>
           </div>
           <div>
             <video
               src="./video2.mp4"
               className="banner-video-company"
-              autoPlay
-              preload
-              muted
-              loop
               onClick={() => {
                 navigate("/corporativo");
                 window.scrollTo(0, 0);
               }}
+              autoPlay
+              preload
+              muted
+              loop
             ></video>
           </div>
         </div>
