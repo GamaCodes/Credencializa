@@ -8,9 +8,7 @@ Para este proyecto se utilizo el paquete de NPM 'create-react-app' como estructu
 
 # Frontend
 
-- "firebase": "^9.5.0"
 - "react-icons": "^4.3.1"
-- "react-toastify": "^8.1.0"
 
 # Instalación
 
