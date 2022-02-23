@@ -13,8 +13,6 @@ import Terms from "./pages/terms";
 import Privacy from "./pages/privacy";
 import Corporate from "./pages/corporate";
 
-import Request from "./pages/request";
-
 import "./index.css";
 
 const Router = () => (
@@ -27,7 +25,6 @@ const Router = () => (
       <Route path="/terminos" element={<Terms />} />
       <Route path="/privacidad" element={<Privacy />} />
       <Route path="/corporativo" element={<Corporate />} />
-      <Route path="/solicitud" element={<Request />} />
       <Route path="/*" element={<Home />} />
     </Routes>
     <Footer />
