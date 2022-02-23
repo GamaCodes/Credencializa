@@ -25,20 +25,20 @@ export default function Privacy() {
                 Oficial de la Federación y por el modelo del aviso de privacidad
                 corto para video vigilancia emitida por el Instituto Nacional de
                 Transparencia, Acceso a la Información y Protección de Datos
-                Personales (INAI). Alejandro Guerrero Bautista en lo en lo
-                sucesivo LA RESPONSABLE, con domicilio en la Calle Ostia 2782
-                Piso 4, en la colonia Providencia, en lacio de Guadalajara,
-                Jalisco, México, código postal 44630; pone a disposición del
+                Personales (INAI). VICTOR MANUEL DE LA TORRE VELAZQUEZ en lo en
+                lo sucesivo LA RESPONSABLE, con domicilio en la Calle Blvd.
+                Benito Juarez 4325 Colonia Ex ejido coahuila, Mexicali, Baja
+                California, México, código postal 21360; pone a disposición del
                 público en general los términos y condiciones del aviso de
                 privacidad simplificado para la protección de datos personales
                 (Aviso de Privacidad).
               </p>
               <p>
                 El responsable de la recepción manejo y salvaguarda de la
-                información será Alejandro Guerrero Bautista, quien ejerce bajo
-                la marca comercial “Credencializa Tu Vacuna MX”, toda la
-                información será utilizada en base al tratamiento y finalidades
-                que se proveen a lo largo del presente Aviso de Privacidad.
+                información será VICTOR MANUEL DE LA TORRE VELAZQUEZ, quien
+                ejerce bajo la marca comercial “VACUNAMEX”, toda la información
+                será utilizada en base al tratamiento y finalidades que se
+                proveen a lo largo del presente Aviso de Privacidad.
               </p>
               <p>
                 Los datos personales solicitados y recabados tendrán como
@@ -53,21 +53,20 @@ export default function Privacy() {
                 titular y terceros con los que se tenga relación directa.
               </p>
               <p>
-                La responsable tiene ubicada su oficina en la Calle Ostia 2782
-                Piso 4, en la colonia Providencia, en lacio de Guadalajara,
-                Jalisco, México, código postal 44630; para la atención de dudas
-                o reclamaciones, así como para los efectos revocación y negativa
-                del consentimiento y para el seguimiento al procedimiento de
-                derechos ARCO a favor del titular de los datos personales.
+                La responsable tiene ubicada su oficina en la Calle Blvd. Benito
+                Juarez 4325 Colonia Ex ejido coahuila, Mexicali, Baja
+                California, México, código postal 21360; para la atención de
+                dudas o reclamaciones, así como para los efectos revocación y
+                negativa del consentimiento y para el seguimiento al
+                procedimiento de derechos ARCO a favor del titular de los datos
+                personales.
               </p>
               <p>
                 Correo electrónico:{" "}
-                <span className="terms-name">
-                  info@credencializatuvacuna.mx{" "}
-                </span>{" "}
+                <span className="terms-name">corporativos@vacunamex.com </span>{" "}
               </p>
               <p>
-                Teléfono: <span className="terms-name">3330612330</span>
+                Teléfono: <span className="terms-name">686 695 3880</span>
               </p>
               <p>
                 Para mayor información sobre el uso de tus datos personales,

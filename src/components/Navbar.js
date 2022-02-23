@@ -50,7 +50,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="https://www.instagram.com/credencializa_tu_vacuna/"
+            href="https://www.instagram.com/credencializatuvacunamx/"
             target="_blank"
             rel="noreferrer"
           >
@@ -137,7 +137,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://www.instagram.com/credencializa_tu_vacuna/"
+              href="https://www.instagram.com/credencializatuvacunamx/"
               target="_blank"
               rel="noreferrer"
             >

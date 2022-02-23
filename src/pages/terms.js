@@ -21,12 +21,10 @@ export default function Terms() {
                 impresión en formatos “pvc” de los documentos que sean
                 requeridos por los clientes en dicho formato (en lo sucesivo
                 “tarjetas pvc”) ofertados al público en general bajo la marca{" "}
-                <span className="terms-name">
-                  “CREDENCIALIZA TU VACUNA. MX”
-                </span>{" "}
-                a través de su página de internet{" "}
-                <span className="terms-url">www.credencializatuvacuna.mx</span>{" "}
-                (en lo sucesivo el “Sitio”) y demás redes sociales de momento en
+                <span className="terms-name">“VACUNAMEX”</span> a través de su
+                página de internet{" "}
+                <span className="terms-url">www.vacunamex.com</span> (en lo
+                sucesivo el “Sitio”) y demás redes sociales de momento en
                 momento.
               </p>
             </section>
@@ -50,8 +48,8 @@ export default function Terms() {
               </p>
               <p>
                 Certificado: que es una tarjeta de identidad y contiene el
-                nombre, RFC y CURP. También se llama llave pública, ya que
-                cualquier persona puede tener acceso a ella.
+                nombre y CURP. También se llama llave pública, ya que cualquier
+                persona puede tener acceso a ella.
               </p>
               <p>
                 Autenticidad: a la certeza que en un documento digital

@@ -36,11 +36,9 @@ export default function Footer() {
             </a>
           </div>
           <div className="footer-text">
+            <section>VACUNAMEX | Todos los derechos reservados.</section>
             <section>
-              Credencializa Tu Vacuna MX | Todos los derechos reservados.
-            </section>
-            <section>
-              <p className="footer-email">info@credencializatuvacuna.mx </p>
+              <p className="footer-email">corporativos@vacunamex.com </p>
             </section>
           </div>
         </section>
@@ -55,9 +53,9 @@ export default function Footer() {
           <h4>OFICINAS EN INTERIOR DE LA REPUBLICA</h4>
           <div>
             <p className="footer-cities">Guadalajara</p>
-            <p>Providencia. Bogotá 2825</p>
-            <p>Col. Providencia 4ta sección, 44639</p>
-            <p>Tel. (33) 3061 2330</p>
+            <p>Patria 2085, fracc. Puerta de Hierro,</p>
+            <p>Zapopan, Jalisco 45116 Piso Mezzanine</p>
+            <p>Tel. (33) 2803 2857</p>
           </div>
           <div>
             <p className="footer-cities">Baja California</p>
@@ -74,8 +72,8 @@ export default function Footer() {
           </div>
         </section>
         <section className="footer-mobile">
-          <p>Credencializa Tu Vacuna MX | Todos los derechos reservados.</p>
-          <p>info@credencializatuvacuna.mx </p>
+          <p>VACUNAMEX | Todos los derechos reservados.</p>
+          <p>corporativos@vacunamex.com</p>
         </section>
       </div>
       <div className="wa-button">

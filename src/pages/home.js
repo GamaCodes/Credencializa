@@ -68,7 +68,7 @@ export default function Home() {
         <div className="home-video">
           <section className="home-youtub-video">
             <iframe
-              src="https://www.youtube.com/embed/0TEWsb8e1CY"
+              src="https://www.youtube.com/embed/3LxLP2xaIqk"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

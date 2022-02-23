@@ -8,14 +8,14 @@ export default function FeedInsragram() {
           <div className="feed-header">
             <img
               className="feed-logo"
-              src="./perfil.png"
+              src="./perfil.jpg"
               alt="Credencializa Instagram"
             />
             <section className="feed-header-text">
-              <p className="feed-header-title">credencializa_tu_vacuna</p>
+              <p className="feed-header-title">credencializatuvacunamx</p>
               <button>
                 <a
-                  href="https://www.instagram.com/credencializa_tu_vacuna/"
+                  href="https://www.instagram.com/credencializatuvacunamx/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -30,9 +30,6 @@ export default function FeedInsragram() {
                 Credencializa Tu Certificado
               </p>
               <p className="feed-header-company">Producto/servicio</p>
-              <p className="feed-header-des">
-                📍CDMX 📍GUADALAJARA 📍TIJUANA 📍CULIACÁN
-              </p>
             </section>
           </div>
         </section>

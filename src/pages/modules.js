@@ -63,11 +63,6 @@ export default function Modules() {
                 <p>
                   <span>Guadalajara</span>
                 </p>
-
-                <ul>
-                  <li>Estadio de Beisbol | Charros de Jalisco.</li>
-                  <li>Providencia 4ta Sección | Bogotá 2825.</li>
-                </ul>
               </section>
 
               <section>
